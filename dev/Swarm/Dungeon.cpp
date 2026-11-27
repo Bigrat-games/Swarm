@@ -1,9 +1,13 @@
 #include "Dungeon.h"
 
 std::vector<std::vector<Room>> Dungeon::getMap() {
-	return map;
+	return mMap;
 };
 
-std::vector<Rat> Dungeon::getParty() {
-	return party;
+std::vector<Rat*> Dungeon::getParty() {
+	return mParty;
+};
+
+void Dungeon::setParty(std::vector<Rat*> party) {
+	mParty = party;
 };

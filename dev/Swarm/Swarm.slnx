@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Swarm.vcxproj" />
+  <Project Path="Swarm.vcxproj" Id="05033561-024f-4b12-a207-2069d6affa4d" />
 </Solution>

@@ -13,17 +13,17 @@ struct Room {
 class Dungeon
 {
 
-	std::vector<std::vector<Room>> map;
+	std::vector<std::vector<Room>> mMap;
 
-	std::vector<Rat> party;
+	std::vector<Rat*> mParty;
 
 public:
 
 
 	std::vector<std::vector<Room>> getMap();
 
-	std::vector<Rat> getParty();
+	std::vector<Rat*> getParty();
 
-
+	void setParty(std::vector<Rat*> party);
 };
 

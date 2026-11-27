@@ -1,21 +1,25 @@
 #include "Rat.h"
 
 int Rat::getHealth() {
-	return health;
+	return mHealth;
 };
 
 int Rat::getDamage() {
-	return damage;
+	return mDamage;
 };
 
 bool Rat::getRanged() {
-	return ranged;
+	return mRanged;
 };
 
 std::string Rat::getSpecialization() {
-	return specialization;
+	return mSpecialization;
 };
 
 int Rat::getSpeed() {
-	return speed;
+	return mSpeed;
+};
+
+Loot Rat::getLoot() {
+	return mLoot;
 };

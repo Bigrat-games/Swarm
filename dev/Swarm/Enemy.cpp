@@ -1,29 +1,33 @@
 #include "Enemy.h"
 
 int Enemy::getEnemyHealth() {
-	return health;
+	return mHealth;
 };
 
 int Enemy::getEnemyDamage() {
-	return damage;
+	return mDamage;
 };
 
 bool Enemy::getCleave() {
-	return cleave;
+	return mCleave;
 };
 
 bool Enemy::getFlying() {
-	return flying;
+	return mFlying;
 };
 
 std::string Enemy::getName() {
-	return name;
+	return mName;
 };
 
 int Enemy::getSpeed() {
-	return speed;
+	return mSpeed;
 };
 
 int Enemy::getSpawnValue() {
-	return spawnValue;
+	return mSpawnValue;
 };
+
+bool Enemy::getDead() {
+	return mDead;
+}
